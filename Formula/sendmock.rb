@@ -1,29 +1,29 @@
-# Written by Release build for 1.1.0; changes here are overwritten.
+# Written by Release build for 1.2.0; changes here are overwritten.
 class Sendmock < Formula
   desc "Catch email, SMS, payments and webhooks from any app on your machine"
   homepage "https://github.com/shibbirweb/sendmock"
-  version "1.1.0"
+  version "1.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.1.0/sendmock-aarch64-apple-darwin.tar.gz"
-      sha256 "65a593e897ca520cfbbb9064a93cc3ea8e8924963dd7ddc9bffdd27e04d24d0b"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.2.0/sendmock-aarch64-apple-darwin.tar.gz"
+      sha256 "693853dadc25cb6a800cadbf56b7db825f9011086e81e6decc11e6c1700e85a8"
     end
     on_intel do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.1.0/sendmock-x86_64-apple-darwin.tar.gz"
-      sha256 "283f0c72c8a45b6888d497d3e27ad3529c4147c03b28837fddcf60761c9bcd79"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.2.0/sendmock-x86_64-apple-darwin.tar.gz"
+      sha256 "617dfb615345d5e93f5a0763afbf983a4c2802f4dbc09bbb125617d8857370ef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.1.0/sendmock-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "372ffae6275c5a3745373f1a103f521a4a76ff246e1c38ae1cad0cc4f8853c1c"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.2.0/sendmock-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "22f0bea5bb1a79c895e96f0290d289f7c260d5411663f4436926a32a94172d51"
     end
     on_intel do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.1.0/sendmock-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9b6b26b03d6f8a370e622c315f6bbaf3569ac1b751e0ae904c0879344ebf2e7e"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.2.0/sendmock-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d3b39ac1d56596e1ebbe1bc2e0fdb9f758de072e82160704704373d39dc215b9"
     end
   end
 
