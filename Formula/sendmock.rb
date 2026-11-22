@@ -1,29 +1,29 @@
-# Written by Release build for 1.3.1; changes here are overwritten.
+# Written by Release build for 1.4.0; changes here are overwritten.
 class Sendmock < Formula
   desc "Catch email, SMS, payments and webhooks from any app on your machine"
   homepage "https://github.com/shibbirweb/sendmock"
-  version "1.3.1"
+  version "1.4.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.3.1/sendmock-aarch64-apple-darwin.tar.gz"
-      sha256 "45fd94b40aee28b54c1446540aaa1819bc184394b982d36ad21b263bcd6ae842"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.4.0/sendmock-aarch64-apple-darwin.tar.gz"
+      sha256 "bbfc4b9809bb199de0a9d0991b1fdf4ee1592ef8ef08001a3f92aea79df4b51b"
     end
     on_intel do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.3.1/sendmock-x86_64-apple-darwin.tar.gz"
-      sha256 "8e48cccdace49fa206fdd25ef420de1fcd59b153653d2e4439a9e18fdda2c9fa"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.4.0/sendmock-x86_64-apple-darwin.tar.gz"
+      sha256 "05a04059ed8ef126d994a02deb8cbb0f9d6afabf15bed2fe043e9205885ad84d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.3.1/sendmock-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7fb0669272096223343973c98b85f4a255c284467dbc2b186462a583aab5baec"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.4.0/sendmock-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "66ba159c4cba8e5849e23e88ba056906ff6fa6979e5e1fc303add6b996e54879"
     end
     on_intel do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.3.1/sendmock-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "12b8bac68651d9c2fd0cf8db6a1b63b77735b96d0832aab218c4a7711bba2286"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.4.0/sendmock-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d43148f93baca89dd519c6740a0c0c1d3064f38579162978d11f2864ee61f12e"
     end
   end
 
