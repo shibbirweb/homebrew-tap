@@ -1,29 +1,29 @@
-# Written by Release build for 1.3.1-beta.2; changes here are overwritten.
+# Written by Release build for 1.4.0-beta.1; changes here are overwritten.
 class SendmockBeta < Formula
   desc "Catch email, SMS, payments and webhooks from any app on your machine"
   homepage "https://github.com/shibbirweb/sendmock"
-  version "1.3.1-beta.2"
+  version "1.4.0-beta.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.3.1-beta.2/sendmock-aarch64-apple-darwin.tar.gz"
-      sha256 "c2d9456e57d6589aa71fd9eec7869f35821f5a801117d6b00ac6327a47ef5bda"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.4.0-beta.1/sendmock-aarch64-apple-darwin.tar.gz"
+      sha256 "1e3b430944425e540bd1c3f5b6a9a6496093a7f1f36dc3b5cdb677ea9697929c"
     end
     on_intel do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.3.1-beta.2/sendmock-x86_64-apple-darwin.tar.gz"
-      sha256 "c81ac3859b79713b03b348722fc4dcc92c654591bd2f5b3b424aa2bf380137ec"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.4.0-beta.1/sendmock-x86_64-apple-darwin.tar.gz"
+      sha256 "973bf1668a10fe6c69cba340a6397e8807374cab451e5687ba391e3a7a64b151"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.3.1-beta.2/sendmock-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2d647f55e6a4176622118e2a63edbd4e2010c36df05e4cbdedd45e548d959159"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.4.0-beta.1/sendmock-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "930b91cf95439587cbee2877884bd5945e99858d18aaffa9adc6024a3cd5c12e"
     end
     on_intel do
-      url "https://github.com/shibbirweb/sendmock/releases/download/v1.3.1-beta.2/sendmock-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "61bb3ae947875f769f458268909ed66aae09d3d6d0583a25eee255f242d2a494"
+      url "https://github.com/shibbirweb/sendmock/releases/download/v1.4.0-beta.1/sendmock-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "eac08d10cf584c7c637e270fe566196a6b01dd793f7796b21103db589aff317b"
     end
   end
 
